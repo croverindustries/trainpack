@@ -1,0 +1,11 @@
+{
+	"RegistryName": "cng",
+	"Name": "Crover Narrow Gauge Pack For FVTM",
+	"URL": "http://fexcraft.net/download?modid=addon-yourpack&YOUR_DOWNLOAD_OR_OFFICIAL_PAGE_HERE",
+	"UpdateID": "addon-yourpack",
+	"License": "http://fexcraft.net/license?id=mods&YOUR_LICENSE_LINK_HERE_IF_DIFFERENT",
+	"Authors": [
+		"Panzer#1913"
+	],
+	"Version": "1.0.0"
+}

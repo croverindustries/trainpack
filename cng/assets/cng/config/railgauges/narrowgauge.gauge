@@ -1,0 +1,63 @@
+{
+    "RegistryName": "cng:narrow",
+    "Addon": "cng",
+    "Model": "cng:models/gauges/narrow",
+    "Name": "Narrow Gauge",
+    "Width": 16,
+    "Height": 1.5,
+    "BlockHeight": 2,
+    "BlockSpace": 1,
+    "Compatible": [],
+    "TiesTexture": "minecraft:textures/blocks/anvil_base.png",
+    "ModelTexture": "cng:textures/rails/standard_switch.png", //not done
+    "PreSets":[
+    	{
+    		"name": "4_straight",
+    		"segmentation": 8,
+    		"path":[
+    			[ 0, 0, 0 ],
+    			[ 4, 0, 0 ]
+    		]
+    	},
+    	{
+    		"name": "8_straight_slope_up",
+    		"segmentation": 8,
+    		"path":[
+    			[ 0, 0, 0 ],
+    			[ 0, 0, 0 ],
+    			[ 7, 1, 0 ],
+    			[ 8, 1, 0 ]
+    		]
+    	},
+    	{
+    		"name": "8_straight_slope_down",
+    		"segmentation": 8,
+    		"path":[
+    			[ 0, 0, 0 ],
+    			[ 1, 0, 0 ],
+    			[ 7, -1, 0 ],
+    			[ 8, -1, 0 ]
+    		]
+    	},
+    	{
+    		"name": "2_curve_90_right",
+    		"segmentation": 4,
+    		"path":[
+				[ 0.0, 0.0, 0.0],
+				[ 1.0, 0.0, 0.0],
+				[ 2.0, 0.0, 1.0],
+				[ 2.0, 0.0, 2.0]
+    		]
+    	},
+    	{
+    		"name": "2_curve_90_left",
+    		"segmentation": 4,
+    		"path":[
+				[ 0.0, 0.0, 0.0],
+				[ 1.0, 0.0, 0.0],
+				[ 2.0, 0.0, -1.0],
+				[ 2.0, 0.0, -2.0]
+    		]
+    	}
+    ]
+}

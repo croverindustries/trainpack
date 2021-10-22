@@ -1,0 +1,12 @@
+{
+    "RegistryName": "cng:bogienull",
+    "Addon": "fvtm:cng",
+    "Model": "null",
+    "Name": "Bogie Type Null",
+    "Category": "bogie",
+    "Texture": "pack5pxt:textures/parts/bogie0.png",
+    "Installation":{
+    	"Handler": "bogie", "Height": 10
+    },
+    "Function": "fvtm:bogie"
+}

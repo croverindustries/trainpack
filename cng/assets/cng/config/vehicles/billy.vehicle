@@ -1,0 +1,29 @@
+{
+    "RegistryName": "cng:billy",
+    "Addon": "cng",
+    "Name": "billy shunter introduced in 1978",
+    "Model": "cng:models/vehicle/billy.fmf",
+    "Textures": [
+        "cng:textures/vehicles/billy.png"
+    ],
+    "Attributes": [
+    	{ "id": "weight", "type": "float", "value": 1000 },
+    	{ "id": "gauge", "type": "integer", "value": 16 },
+    	{ "id": "hitbox_width", "type": "float", "value": 0.2 },
+    	{ "id": "hitbox_height", "type": "float", "value": 0.2 }
+    ],
+    "WheelPositions":[
+        { "x":  -7, "y": -5, "z":0, "id": "bogie_front" },
+        { "x": 8, "y": -5, "z":0, "id": "bogie_rear" }
+    ],
+    "RearConnector": [ -15, -2.5, 0 ],
+    "FrontConnector": [ 15, -2.5, 0 ],
+    "PreInstalled":{
+		"engine": "gep:engine_diesel",
+        "bogie_front": "cng:bogienull",
+        "bogie_rear": "cng:bogienull",
+        "seats": "cng:ngseat"
+	},
+	"VehicleType": "RAIL",
+	"CouplerRange": 1
+}

@@ -1,0 +1,28 @@
+{
+    "RegistryName": "cng:flatbed01",
+    "Addon": "fvtm:cng",
+    "Name": "Narrow guage Flatbed",
+    "Model": "cng:models/vehicles/flatbed01",
+    "Textures": [
+        "cng:textures/vehicles/flatbed01.png"
+    ],
+    "Attributes": [
+    	{ "id": "weight", "type": "float", "value": 500 },
+    	{ "id": "gauge", "type": "integer", "value": 16 },
+    	{ "id": "hitbox_width", "type": "float", "value": 0.75 },
+    	{ "id": "hitbox_height", "type": "float", "value": 0.75 }
+    ],
+    "WheelPositions":[
+        { "x":  18, "y": -5, "z": 0, "id": "bogie_front" },
+        { "x": -17, "y": -2, "z": 0, "id": "bogie_rear" }
+    ],
+    "RearConnector": [ -26, -11, 0 ],
+    "FrontConnector": [ 26, -11, 0 ],
+    "PreInstalled":{
+        "bogie_front":  "cng:bogienull",
+        "bogie_rear":  "cng:bogienull"
+	},
+	"VehicleType": "RAIL",
+	"CouplerRange": 0.05,
+	"Wagon": true
+}
